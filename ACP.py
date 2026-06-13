@@ -9,3 +9,9 @@ elif mood =="angry":
     print("Take a deep breath, and rethink what you just did/rethink ur life chocies AGAIN!")
 else:
     print("Sorry, I didnt understand that mood")
+
+import datetime
+import calendar
+now= datetime.datetime.now()
+print("The time today is :",now)
+print(calendar.calendar(now.year))
